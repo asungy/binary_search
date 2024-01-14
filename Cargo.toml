@@ -1,0 +1,13 @@
+[package]
+name = "binary_search"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bs"
+path = "src/main.rs"
+
+[dependencies]
+clap = "4.4"
+anyhow = "1.0"
+serde_json = "1.0.111"
